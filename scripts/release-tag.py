@@ -6,7 +6,7 @@ import re
 import subprocess
 
 
-MODULE_PATH = "github.com/washanhanzi/holiday-cn-go"
+MODULE_PATH = "github.com/xuyang2/holiday-cn-go"
 TAG_PATTERN = re.compile(r"v0\.4\.([1-9][0-9]{13})")
 
 

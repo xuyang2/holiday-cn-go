@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/washanhanzi/holiday-cn-go/pkg/holiday"
+	"github.com/xuyang2/holiday-cn-go/pkg/holiday"
 )
 
 var cnLocation *time.Location

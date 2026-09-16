@@ -187,9 +187,9 @@ class ReleaseTagTests(unittest.TestCase):
 
     def test_module_path_must_match_release_series(self):
         release_tag.validate_module(
-            "module github.com/washanhanzi/holiday-cn-go\n\ngo 1.16\n"
+            "module github.com/xuyang2/holiday-cn-go\n\ngo 1.16\n"
         )
-        for module in ("github.com/washanhanzi/holiday-cn-go/v2", "example.com/other"):
+        for module in ("github.com/xuyang2/holiday-cn-go/v2", "example.com/other"):
             with self.subTest(module=module), self.assertRaises(ValueError):
                 release_tag.validate_module(f"module {module}\n\ngo 1.16\n")
 
